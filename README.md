@@ -44,7 +44,7 @@ Questo progetto Laravel contiene un'API che riceve un parametro in GET e restitu
 ### API
 
 L'API è disponibile all'endpoint `/api/test`. 
-![screenshot](screenshot.png)
+![alt text](screenshot.png)
 
 ### Command
 
