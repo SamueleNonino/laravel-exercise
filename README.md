@@ -4,9 +4,8 @@ Questo progetto Laravel contiene un'API che riceve un parametro in GET e restitu
 
 ## Prerequisiti
 
-- PHP >= 7.3
+- PHP 
 - Composer
-- MySQL o altro database supportato da Laravel
 
 ## Installazione
 
@@ -31,26 +30,21 @@ Questo progetto Laravel contiene un'API che riceve un parametro in GET e restitu
     php artisan key:generate
     ```
 
-5. Configura il database nel file `.env`
-    ```env
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=nome_del_database
-    DB_USERNAME=tuo_username
-    DB_PASSWORD=tuo_password
-    ```
-
-6. Esegui le migrazioni per creare le tabelle nel database
+5. Esegui le migrazioni per creare le tabelle nel database
     ```bash
     php artisan migrate
+    ```
+6. Avvia il progetto
+    ```bash
+    php artisan serve
     ```
 
 ## Utilizzo
 
 ### API
 
-L'API è disponibile all'endpoint `/api/test`. Puoi testarla con un client HTTP come Postman o tramite il browser:
+L'API è disponibile all'endpoint `/api/test`. 
+![screenshot](screenshot.png)
 
 ### Command
 
